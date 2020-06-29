@@ -1,0 +1,84 @@
+.buttonWrapper {
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 1.4em;
+    background-color: #fff;
+    color: #888888;
+    flex: 1;
+    border: 1px solid #e0e1e6;
+}
+
+.buttonWrapper:hover {
+    background-color: #e9e9e9;
+}
+
+.operator {
+    background-color: #6666FF;
+    color: #ffffff;
+    border: 1px solid #5c5ff6;
+}
+
+.operator:hover {
+    background-color: #5c5ff6;
+}
+
+.inputContainer {
+    height: 5em;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: end;
+    background-color: #000000 !important;
+    color: #ffffff;
+    padding: 0.5em;
+    border: 1px solid #000000;
+}
+
+.clearButton {
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 1.4em;
+    background-color: #f7f7f7;
+    color: #888888;
+    flex: 1;
+    border: 1px solid #f7f7f7;
+}
+
+.equal {
+    background-color: #CC3399;
+    border: 1px solid #d85ea9;
+}
+
+.equal:hover{
+    background-color: #d85ea9;
+}
+
+.mathematicalOperation {
+    height: 0px;
+    padding: 0;
+    margin: 4px;
+    font-size: 16px;
+    color: #8f7db5;
+}
+
+.result {
+    font-size: 26px;
+    height: 0;
+    padding-bottom: 10px;
+    margin-right: 10px;
+}
+
+@media(max-width: 320px) {
+    .buttonWrapper {
+        height: 3em;
+    }
+    .clearButton {
+        height: 3em;
+    }
+}
